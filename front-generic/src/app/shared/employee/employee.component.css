@@ -1,0 +1,29 @@
+.custom-card {
+    max-width: 30%;
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+
+.example-header-image {
+    background-size: cover;
+}
+
+.custom-avatar{
+    font-size: 35px;
+    height: 35px;
+    width: 35px;
+    color: #0e3b74 ;
+}
+
+.custom-content{
+    margin-top: 20px;
+}
+
+.w-100{
+    max-width: 100%;
+    width: 100%;
+}
+
+.example-container mat-form-field + mat-form-field {
+    margin-left: 8px;
+  }
