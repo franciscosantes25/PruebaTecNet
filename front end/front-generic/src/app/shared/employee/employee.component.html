@@ -1,0 +1,95 @@
+<form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+
+    <mat-card class="custom-card" appearance="outlined">
+    <mat-card-header>
+        <div mat-card-avatar class="example-header-image">
+            <mat-icon class="custom-avatar">
+                person
+            </mat-icon>
+        </div>
+        <mat-card-title>Nuevo Empleado</mat-card-title>
+        <mat-card-subtitle>Datos del empleado</mat-card-subtitle>
+    </mat-card-header>
+    <mat-divider></mat-divider>
+    <mat-card-content class="custom-content">
+    
+
+            <div class="row">
+                <mat-form-field appearance="outline" class="w-100">
+                    <mat-label>Nombre del empleado</mat-label>
+                    <input formControlName="name" matInput placeholder="Nombre del empleado" maxlength="100" minlength="1">
+                </mat-form-field>
+            </div>
+            <div class="row">
+                <mat-form-field appearance="outline" class="w-100">
+                    <mat-label>Apellidos del empleado</mat-label>
+                    <input formControlName="lastName" matInput placeholder="Apellidos del empleado" maxlength="100" minlength="1">
+                </mat-form-field>
+            </div>
+            <div class="row">
+                <mat-form-field appearance="outline" class="w-100">
+                    <mat-label>Seleccionar puesto</mat-label>
+                    <mat-select formControlName="positionId">
+                        @for (item of (positions$ | async); track item.id) {
+                            <mat-option value="{{ item.id }}">{{ item.name }}</mat-option>
+                        }
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="row">
+                <mat-form-field appearance="outline" class="w-100">
+                    <mat-label>Fecha de nacimiento</mat-label>
+                    <input matInput [matDatepicker]="BirthDate" formControlName="birthDate" readonly>
+                    <mat-hint>MM/DD/YYYY</mat-hint>
+                    <mat-datepicker-toggle matIconSuffix [for]="BirthDate"></mat-datepicker-toggle>
+                    <mat-datepicker #BirthDate></mat-datepicker>
+                </mat-form-field>
+            </div>
+            <div class="row">
+                <mat-form-field appearance="outline" class="w-100">
+                    <mat-label>Fecha de contratación</mat-label>
+                    <input matInput [matDatepicker]="HiringDate" formControlName="hiringDate" readonly>
+                    <mat-hint>MM/DD/YYYY</mat-hint>
+                    <mat-datepicker-toggle matIconSuffix [for]="HiringDate"></mat-datepicker-toggle>
+                    <mat-datepicker #HiringDate></mat-datepicker>
+                </mat-form-field>
+            </div>
+            <div class="row">
+                <mat-form-field appearance="outline" class="w-100">
+                    <mat-label>Dirección del empleado</mat-label>
+                    <input matInput placeholder="Dirección del empleado" formControlName="address" maxlength="1000" minlength="1">
+                </mat-form-field>
+            </div>
+            <div class="row">
+                <mat-form-field appearance="outline" class="w-100">
+                    <mat-label>Teléfono</mat-label>
+                    <input type="number" matInput placeholder="Teléfono" formControlName="phone" maxlength="15" minlength="1">
+                </mat-form-field>
+            </div>
+            <div class="row">
+                <mat-form-field appearance="outline" class="w-100">
+                    <mat-label>Correo electrónico</mat-label>
+                    <input matInput placeholder="Correo electrónico" formControlName="email" maxlength="100" minlength="1" (blur)="updateErrorMessage()" required>
+                    @if (email.invalid) {
+                        <mat-error>{{errorMessage()}}</mat-error>
+                      }
+                </mat-form-field>
+            </div>
+            <div class="row">
+                <mat-form-field appearance="outline" class="w-100">
+                    <mat-label>Seleccionar estado de nacimiento</mat-label>
+                    <mat-select formControlName="stateId">
+                        @for (item of (states$ | async); track item.id) {
+                            <mat-option value="{{ item.id }}">{{ item.name }}</mat-option>
+                        }
+                    </mat-select>
+                </mat-form-field>
+            </div>
+       
+    </mat-card-content>
+    <mat-card-actions style="align-items: center; text-align: center; align-content: center;">
+        <button mat-flat-button type="submit" [disabled]="employeeForm.invalid">Enviar</button>
+    </mat-card-actions>
+</mat-card>
+
+</form>
