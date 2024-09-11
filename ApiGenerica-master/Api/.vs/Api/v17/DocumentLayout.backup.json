@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\FRANCISCO SANTES\\Downloads\\ApiGenerica-master\\ApiGenerica-master\\Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F196BA4-1E98-4B30-B13C-FE266820FD33}|Api.csproj|c:\\users\\francisco santes\\downloads\\apigenerica-master\\apigenerica-master\\api\\controllers\\positioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F196BA4-1E98-4B30-B13C-FE266820FD33}|Api.csproj|solutionrelative:controllers\\positioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F196BA4-1E98-4B30-B13C-FE266820FD33}|Api.csproj|c:\\users\\francisco santes\\downloads\\apigenerica-master\\apigenerica-master\\api\\controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F196BA4-1E98-4B30-B13C-FE266820FD33}|Api.csproj|solutionrelative:controllers\\statecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F196BA4-1E98-4B30-B13C-FE266820FD33}|Api.csproj|c:\\users\\francisco santes\\downloads\\apigenerica-master\\apigenerica-master\\api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F196BA4-1E98-4B30-B13C-FE266820FD33}|Api.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8061B-FF59-4675-8866-0CC06FB1B387}|..\\ServicesApi\\ServicesApi.csproj|c:\\users\\francisco santes\\downloads\\apigenerica-master\\apigenerica-master\\servicesapi\\services\\implementacionapi\\apiemployees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8061B-FF59-4675-8866-0CC06FB1B387}|..\\ServicesApi\\ServicesApi.csproj|c:\\users\\francisco santes\\downloads\\apigenerica-master\\apigenerica-master\\servicesapi\\services\\implementacionapi\\apipositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A8061B-FF59-4675-8866-0CC06FB1B387}|..\\ServicesApi\\ServicesApi.csproj|c:\\users\\francisco santes\\downloads\\apigenerica-master\\apigenerica-master\\servicesapi\\services\\implementacionapi\\apistate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PositionController.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCISCO SANTES\\Downloads\\ApiGenerica-master\\ApiGenerica-master\\Api\\Controllers\\PositionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PositionController.cs",
+              "ToolTip": "C:\\Users\\FRANCISCO SANTES\\Downloads\\ApiGenerica-master\\ApiGenerica-master\\Api\\Controllers\\PositionController.cs",
+              "RelativeToolTip": "Controllers\\PositionController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:48:08.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StateController.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCISCO SANTES\\Downloads\\ApiGenerica-master\\ApiGenerica-master\\Api\\Controllers\\StateController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StateController.cs",
+              "ToolTip": "C:\\Users\\FRANCISCO SANTES\\Downloads\\ApiGenerica-master\\ApiGenerica-master\\Api\\Controllers\\StateController.cs",
+              "RelativeToolTip": "Controllers\\StateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:43:35.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCISCO SANTES\\Downloads\\ApiGenerica-master\\ApiGenerica-master\\Api\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\FRANCISCO SANTES\\Downloads\\ApiGenerica-master\\ApiGenerica-master\\Api\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:39:43.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiState.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCISCO SANTES\\Downloads\\ApiGenerica-master\\ApiGenerica-master\\ServicesApi\\Services\\ImplementacionApi\\ApiState.cs",
+              "RelativeDocumentMoniker": "..\\ServicesApi\\Services\\ImplementacionApi\\ApiState.cs",
+              "ToolTip": "C:\\Users\\FRANCISCO SANTES\\Downloads\\ApiGenerica-master\\ApiGenerica-master\\ServicesApi\\Services\\ImplementacionApi\\ApiState.cs",
+              "RelativeToolTip": "..\\ServicesApi\\Services\\ImplementacionApi\\ApiState.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCMAAACTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T19:55:01.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiPositions.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCISCO SANTES\\Downloads\\ApiGenerica-master\\ApiGenerica-master\\ServicesApi\\Services\\ImplementacionApi\\ApiPositions.cs",
+              "RelativeDocumentMoniker": "..\\ServicesApi\\Services\\ImplementacionApi\\ApiPositions.cs",
+              "ToolTip": "C:\\Users\\FRANCISCO SANTES\\Downloads\\ApiGenerica-master\\ApiGenerica-master\\ServicesApi\\Services\\ImplementacionApi\\ApiPositions.cs",
+              "RelativeToolTip": "..\\ServicesApi\\Services\\ImplementacionApi\\ApiPositions.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAACcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T19:54:22.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiEmployees.cs",
+              "DocumentMoniker": "C:\\Users\\FRANCISCO SANTES\\Downloads\\ApiGenerica-master\\ApiGenerica-master\\ServicesApi\\Services\\ImplementacionApi\\ApiEmployees.cs",
+              "RelativeDocumentMoniker": "..\\ServicesApi\\Services\\ImplementacionApi\\ApiEmployees.cs",
+              "ToolTip": "C:\\Users\\FRANCISCO SANTES\\Downloads\\ApiGenerica-master\\ApiGenerica-master\\ServicesApi\\Services\\ImplementacionApi\\ApiEmployees.cs",
+              "RelativeToolTip": "..\\ServicesApi\\Services\\ImplementacionApi\\ApiEmployees.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T19:53:48.019Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
